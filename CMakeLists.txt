@@ -2,6 +2,7 @@
 # See https://github.com/build-cpp/cmkr for more information
 
 cmake_minimum_required(VERSION 3.15)
+set(CMAKE_CXX_STANDARD 23)
 
 if(CMAKE_SOURCE_DIR STREQUAL CMAKE_BINARY_DIR)
 	message(FATAL_ERROR "In-tree builds are not supported. Run CMake from a separate directory: cmake -B build")
