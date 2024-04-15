@@ -1,4 +1,4 @@
-# Reference: https://build-cpp.github.io/cmkr/cmake-toml
+# Reference: https://build-cpp.github.io/cmkr/cmake-tomll
 [project]
 name = "safetyhook"
 
